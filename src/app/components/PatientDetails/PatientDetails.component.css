@@ -1,0 +1,50 @@
+.patient-icon {
+  height: 16px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+}
+.patient-icon-container {
+  align-self: stretch;
+  width: 9.9px;
+  align-items: flex-start;
+  padding: var(--padding-9xs) 0 0;
+  box-sizing: border-box;
+}
+.patient-details,
+.patient-i-d-fields,
+.patient-icon-container,
+.patient-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.patient-i-d-fields {
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: center;
+  gap: var(--gap-3xs);
+}
+.patient-details,
+.patient-info {
+  align-items: flex-start;
+}
+.patient-info {
+  gap: var(--gap-3xs);
+}
+.patient-details {
+  align-self: stretch;
+  background-color: var(--color-palegoldenrod);
+  height: 64px;
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  padding: var(--padding-xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--text-1);
+  font-family: var(--font-segoe-ui);
+}

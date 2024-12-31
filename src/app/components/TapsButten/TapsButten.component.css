@@ -1,0 +1,41 @@
+.specimen-details {
+  text-decoration: none;
+  position: relative;
+  color: inherit;
+}
+.tab-button-list {
+  width: 196px;
+  height: 48px;
+  background-color: var(--color-lavender);
+  border-bottom: 2px solid var(--button-3);
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-xs) var(--padding-11xl);
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: center;
+  font-size: var(--font-size-lg);
+  color: var(--text-1);
+  font-family: var(--font-segoe-ui);
+}
+.main[data-property1="Normal"] .tab-button-list {
+  width: unset;
+  background-color: unset;
+  border-bottom: unset;
+  overflow: unset;
+  flex-shrink: unset;
+  align-self: stretch;
+}
+.main[data-property1="Normal"] .specimen-details {
+  text-decoration: unset;
+  color: var(--button-3);
+}

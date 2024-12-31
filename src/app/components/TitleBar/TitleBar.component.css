@@ -1,0 +1,330 @@
+.menu-icon {
+  height: 16px;
+  width: 24px;
+  position: relative;
+}
+.header-logo-icon {
+  height: 37.3px;
+  width: 28px;
+  position: relative;
+}
+.enterprise-management1,
+.v12162 {
+  align-self: stretch;
+  position: relative;
+}
+.enterprise-management1 {
+  text-decoration: none;
+  font-weight: 700;
+  color: inherit;
+}
+.v12162 {
+  font-size: var(--font-size-xs);
+}
+.enterprise-management {
+  width: 226px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.main-logo-3,
+.name {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.main-logo-3 {
+  overflow: hidden;
+  gap: var(--gap-xs);
+}
+.name {
+  gap: var(--gap-base);
+}
+.chemistry-icon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+}
+.login {
+  text-decoration: none;
+  position: relative;
+  font-weight: 600;
+  color: inherit;
+}
+.chemistry-button {
+  width: 108px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.labtech-icon {
+  height: 7.4px;
+  width: 12px;
+  position: relative;
+  object-fit: contain;
+}
+.chemistry-link {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  z-index: 0;
+}
+.login1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.login-wrapper {
+  width: 98px;
+  height: 21px;
+  position: relative;
+}
+.frame-wrapper {
+  background-color: var(--white);
+  border-bottom: 1px solid var(--stroke-01);
+  padding: var(--padding-smi) var(--padding-xl);
+}
+.drop-down-inner,
+.frame-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.chemsitry,
+.drop-down {
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.drop-down {
+  width: 240px;
+  margin: 0 !important;
+  position: absolute;
+  top: 53px;
+  left: 15px;
+  background-color: var(--white);
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-xs) 0;
+  z-index: 1;
+  color: var(--text-1);
+}
+.chemsitry {
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0 0 0 var(--padding-xl);
+  position: relative;
+  gap: var(--gap-base);
+}
+.lab-tech-button {
+  height: 22.8px;
+  width: 24px;
+  position: relative;
+}
+.lab-tech,
+.labtech-link {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.labtech-link {
+  width: 97px;
+  gap: var(--gap-3xs);
+}
+.lab-tech {
+  border-left: 1px solid var(--button-2);
+  box-sizing: border-box;
+  height: 40px;
+  padding: 0 0 0 var(--padding-xl);
+  gap: var(--gap-base);
+}
+.facility-login-icon {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.facility-login-icon-wrapper {
+  height: 25px;
+  width: 25px;
+  position: relative;
+}
+.login6 {
+  text-decoration: none;
+  height: 21px;
+  position: relative;
+  font-weight: 600;
+  color: inherit;
+  display: inline-block;
+}
+.facility-link {
+  width: 216px;
+  gap: var(--gap-3xs);
+}
+.facility-link,
+.header-links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.notification-bell-icon {
+  position: absolute;
+  height: 100%;
+  width: 86.25%;
+  top: 0;
+  right: 13.75%;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.notification-count {
+  position: absolute;
+  top: 0;
+  left: 12.4px;
+  border-radius: 50%;
+  background-color: var(--color-tomato);
+  width: 11.6px;
+  height: 11.6px;
+}
+.notification-counter {
+  text-decoration: none;
+  position: absolute;
+  top: 1.6px;
+  left: 16px;
+  font-weight: 700;
+  color: inherit;
+}
+.notification-bell-parent {
+  height: 24.1px;
+  width: 24px;
+  position: relative;
+}
+.notifications {
+  align-self: stretch;
+  border-left: 1px solid var(--button-2);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-xl);
+  font-size: var(--font-size-7xs);
+}
+.language-dropdown-icon {
+  height: 28px;
+  width: 28px;
+  position: relative;
+}
+.language-selector {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.language-child {
+  height: 5px;
+  width: 10px;
+  position: relative;
+}
+.language {
+  align-self: stretch;
+  border-left: 1px solid var(--button-2);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-xl);
+  gap: var(--gap-5xl);
+}
+.j {
+  text-decoration: none;
+  position: relative;
+  font-weight: 700;
+  color: inherit;
+}
+.profile-info {
+  height: 30px;
+  width: 30px;
+  border-radius: var(--br-mini);
+  background-color: var(--d-1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-8xs) var(--padding-xs);
+  box-sizing: border-box;
+}
+.login8 {
+  text-decoration: none;
+  width: 120px;
+  position: relative;
+  font-weight: 700;
+  color: var(--white);
+  text-align: left;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.header-options,
+.profile {
+  align-self: stretch;
+  justify-content: flex-end;
+}
+.profile {
+  border-left: 1px solid var(--button-2);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0 0 0 var(--padding-xl);
+  gap: var(--gap-xs);
+  text-align: center;
+  color: var(--color-darkslateblue-100);
+}
+.header-options {
+  gap: var(--gap-xl);
+}
+.header-options,
+.header-rigth,
+.title-bar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.header-rigth {
+  justify-content: flex-end;
+  gap: var(--gap-xl);
+  font-size: var(--font-size-base);
+}
+.title-bar {
+  align-self: stretch;
+  height: 67px;
+  background-color: var(--icon);
+  overflow-y: auto;
+  flex-shrink: 0;
+  justify-content: space-between;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--white);
+  font-family: var(--font-segoe-ui);
+}

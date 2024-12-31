@@ -1,0 +1,64 @@
+.separator {
+  align-self: stretch;
+  height: 10px;
+  position: relative;
+  background-color: #d9d9d9;
+  flex-shrink: 0;
+}
+.investigation-actions {
+  align-self: stretch;
+  flex: 1;
+  background-color: var(--white);
+}
+.investigation-header,
+.investigation-list {
+  flex: 1;
+  flex-direction: column;
+  max-width: 100%;
+}
+.investigation-header {
+  height: 523px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 90px 0 0;
+  box-sizing: border-box;
+}
+.investigation-list {
+  gap: 433px;
+  margin-left: -1920px;
+}
+.investigation-header-parent,
+.investigation-list,
+.locofy-trial-result-entry {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.investigation-header-parent {
+  align-self: stretch;
+  flex-direction: row;
+  max-width: 100%;
+}
+.locofy-trial-result-entry {
+  width: 100%;
+  position: relative;
+  overflow-y: auto;
+  flex-direction: column;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1200px) {
+  .investigation-list {
+    gap: 216px;
+  }
+}
+@media screen and (max-width: 825px) {
+  .investigation-header {
+    padding-top: 58px;
+    box-sizing: border-box;
+  }
+  .investigation-list {
+    gap: 108px;
+  }
+}

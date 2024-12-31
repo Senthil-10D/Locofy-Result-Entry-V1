@@ -1,0 +1,39 @@
+.vector-icon1 {
+  width: 25.1px;
+  height: 16px;
+  position: relative;
+}
+.root {
+  width: 50px;
+  background-color: var(--icon);
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs) var(--padding-5xs);
+  box-sizing: border-box;
+}
+.root[data-property1="computevalidate"] .vector-icon1 {
+  height: 24px;
+}
+.root[data-property1="Modify"] .vector-icon1 {
+  width: 21.1px;
+  height: 22px;
+}
+.root[data-property1="notify"] .vector-icon1 {
+  width: 22px;
+  height: 19.2px;
+}
+.root[data-property1="Attach Img-Blue"] .vector-icon1 {
+  width: 20px;
+  height: 24px;
+}
+.root[data-property1="Whodunit"] .vector-icon1 {
+  width: 20.9px;
+  height: 22px;
+}
+.root[data-property1="viewprint draft"] .vector-icon1 {
+  width: 22px;
+  height: 19.8px;
+}

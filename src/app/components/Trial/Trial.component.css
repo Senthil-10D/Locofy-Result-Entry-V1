@@ -1,0 +1,494 @@
+.category-data,
+.specimen-no1 {
+  position: relative;
+  display: inline-block;
+  min-width: 88px;
+}
+.specimen-no1 {
+  position: absolute;
+  margin: 0 !important;
+  top: -10.5px;
+  left: 1px;
+  font-size: var(--font-size-sm);
+  color: var(--text-2);
+  min-width: 83px;
+}
+.specimen-data {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-mini-5) 0 0;
+  position: relative;
+}
+.modified {
+  align-self: stretch;
+  width: 10px;
+  position: relative;
+  background-color: var(--color-greenyellow);
+}
+.specimen-no {
+  height: 50px;
+  background-color: var(--white);
+  border: 1px solid var(--stroke-01);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-5xs);
+  gap: var(--gap-21xl);
+}
+.div {
+  position: relative;
+}
+.date-and-time {
+  position: absolute;
+  margin: 0 !important;
+  top: -10.5px;
+  left: 11px;
+  font-size: var(--font-size-sm);
+  color: var(--text-2);
+  display: inline-block;
+  min-width: 91px;
+}
+.date {
+  flex: 1;
+  background-color: var(--white);
+  border: 1px solid var(--stroke-01);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-smi) var(--padding-3xs);
+  position: relative;
+  min-width: 119px;
+}
+.empty-data {
+  width: 36px;
+  border: 0;
+  outline: 0;
+  font-family: var(--font-segoe-ui);
+  font-size: var(--font-size-base);
+  background-color: transparent;
+  position: relative;
+  color: var(--text-1);
+  text-align: left;
+  display: inline-block;
+  padding: 0;
+}
+.no {
+  width: 90px;
+  background-color: var(--white);
+  border: 1px solid var(--stroke-01);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-smi) var(--padding-3xs);
+}
+.data-fields,
+.lab-admin {
+  font-size: var(--font-size-base);
+  color: var(--text-1);
+}
+.data-fields {
+  width: 430px;
+  margin: 0 !important;
+  position: absolute;
+  top: 26px;
+  left: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+  max-width: 100%;
+}
+.lab-admin {
+  width: 77px;
+  border: 0;
+  outline: 0;
+  font-family: var(--font-segoe-ui);
+  background-color: transparent;
+  position: relative;
+  text-align: left;
+  display: inline-block;
+  padding: 0;
+}
+.assign-to,
+.date1 {
+  margin: 0 !important;
+  position: absolute;
+}
+.assign-to {
+  top: -10.5px;
+  left: 11px;
+  display: inline-block;
+  min-width: 59px;
+}
+.date1 {
+  height: 50px;
+  width: 430px;
+  top: 26px;
+  left: 470px;
+  background-color: var(--white);
+  border: 1px solid var(--stroke-01);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-mid) var(--padding-3xs) var(--padding-5xs);
+}
+.workgroup {
+  width: 82px;
+  border: 0;
+  outline: 0;
+  font-family: var(--font-segoe-ui);
+  font-size: var(--font-size-base);
+  background-color: transparent;
+  position: relative;
+  color: var(--text-2);
+  text-align: left;
+  display: inline-block;
+  padding: 0;
+}
+.date2 {
+  width: 148px;
+  background-color: var(--white);
+  border: 1px solid var(--stroke-01);
+  box-sizing: border-box;
+  padding: var(--padding-smi) var(--padding-3xs);
+}
+.data-fields1,
+.date2,
+.date3 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.date3 {
+  flex: 1;
+  background-color: var(--white);
+  border: 1px solid var(--stroke-01);
+  box-sizing: border-box;
+  padding: var(--padding-smi) var(--padding-3xs);
+  min-width: 82px;
+}
+.data-fields1 {
+  width: 429px;
+  margin: 0 !important;
+  position: absolute;
+  top: 26px;
+  left: 920px;
+  gap: var(--gap-8xs);
+  max-width: 100%;
+}
+.category-no-wrapper {
+  height: 50px;
+  background-color: var(--white);
+  border-top: 1px solid var(--stroke-01);
+  border-bottom: 1px solid var(--stroke-01);
+  border-left: 1px solid var(--stroke-01);
+  box-sizing: border-box;
+  padding: var(--padding-smi) var(--padding-sm) var(--padding-smi)
+    var(--padding-3xs);
+}
+.category-no-wrapper,
+.frame-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.workgroup2 {
+  position: relative;
+  display: none;
+}
+.date4,
+.date5 {
+  border: 1px solid var(--stroke-01);
+  background-color: var(--white);
+  height: 50px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) 0 var(--padding-3xs) var(--padding-3xs);
+}
+.date4 {
+  width: 90px;
+}
+.date5 {
+  outline: 0;
+  flex: 1;
+  min-width: 170px;
+}
+.data-fields2,
+.p1 {
+  font-size: var(--font-size-base);
+}
+.data-fields2 {
+  width: 531px;
+  margin: 0 !important;
+  position: absolute;
+  top: 26px;
+  left: 1369px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+  max-width: 100%;
+}
+.p1 {
+  width: 19px;
+  border: 0;
+  outline: 0;
+  font-family: var(--font-segoe-ui);
+  background-color: transparent;
+  position: relative;
+  color: var(--text-1);
+  text-align: left;
+  display: inline-block;
+  padding: 0;
+}
+.perform-site-wrapper,
+.specimen-no2 {
+  background-color: var(--white);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.perform-site-wrapper {
+  height: 16px;
+  margin: 0 !important;
+  position: absolute;
+  top: -9px;
+  left: 8px;
+  justify-content: center;
+  padding: 0 var(--padding-11xs);
+  white-space: nowrap;
+}
+.specimen-no2 {
+  width: 147px;
+  border: 1px solid var(--stroke-01);
+  justify-content: flex-start;
+  padding: var(--padding-smi) var(--padding-3xs);
+  position: relative;
+  gap: var(--gap-21xl);
+}
+.performing-location {
+  width: 144px;
+  border: 0;
+  outline: 0;
+  font-family: var(--font-segoe-ui);
+  font-size: var(--font-size-base);
+  background-color: transparent;
+  position: relative;
+  color: var(--text-1);
+  text-align: left;
+  display: inline-block;
+  padding: 0;
+}
+.data-fields3,
+.date6 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.date6 {
+  flex: 1;
+  background-color: var(--white);
+  border: 1px solid var(--stroke-01);
+  box-sizing: border-box;
+  align-items: center;
+  padding: var(--padding-smi) var(--padding-3xs);
+  min-width: 144px;
+}
+.data-fields3 {
+  width: 430px;
+  margin: 0 !important;
+  position: absolute;
+  top: 102px;
+  left: 20px;
+  align-items: flex-end;
+  gap: var(--gap-8xs);
+  max-width: 100%;
+}
+.input {
+  width: 88px;
+  border: 0;
+  outline: 0;
+  font-family: var(--font-segoe-ui);
+  font-size: var(--font-size-base);
+  background-color: transparent;
+  position: relative;
+  color: var(--text-1);
+  text-align: left;
+  display: inline-block;
+  padding: 0;
+}
+.date7,
+.unit-number {
+  margin: 0 !important;
+  position: absolute;
+}
+.unit-number {
+  top: -10.5px;
+  left: 11px;
+  display: inline-block;
+  min-width: 81px;
+}
+.date7 {
+  height: 50px;
+  width: 430px;
+  top: 102px;
+  left: 470px;
+  background-color: var(--white);
+  border: 1px solid var(--stroke-01);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-mid) var(--padding-3xs) var(--padding-5xs);
+}
+.date8,
+.ser {
+  position: relative;
+}
+.ser {
+  width: 28px;
+  border: 0;
+  outline: 0;
+  font-family: var(--font-segoe-ui);
+  font-size: var(--font-size-base);
+  background-color: transparent;
+  color: var(--text-1);
+  text-align: left;
+  display: inline-block;
+  padding: 0;
+}
+.date8 {
+  width: 148px;
+  background-color: var(--white);
+  border: 1px solid var(--stroke-01);
+  box-sizing: border-box;
+  align-items: center;
+  padding: var(--padding-smi) var(--padding-3xs);
+  gap: var(--gap-3xs);
+}
+.data-fields4,
+.date8,
+.date9 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.date9 {
+  flex: 1;
+  background-color: var(--white);
+  border: 1px solid var(--stroke-01);
+  box-sizing: border-box;
+  align-items: center;
+  padding: var(--padding-smi) var(--padding-3xs);
+  min-width: 82px;
+}
+.data-fields4 {
+  width: 429px;
+  margin: 0 !important;
+  position: absolute;
+  top: 102px;
+  left: 920px;
+  align-items: flex-end;
+  gap: var(--gap-8xs);
+  max-width: 100%;
+}
+.histology-marker {
+  position: relative;
+  display: inline-block;
+  min-width: 123px;
+}
+.histology-marker-wrapper {
+  height: 50px;
+  background-color: var(--white);
+  border-top: 1px solid var(--stroke-01);
+  border-bottom: 1px solid var(--stroke-01);
+  border-left: 1px solid var(--stroke-01);
+  box-sizing: border-box;
+  align-items: center;
+  padding: var(--padding-smi) var(--padding-14xl) var(--padding-smi)
+    var(--padding-3xs);
+}
+.data-fields5,
+.date10,
+.histology-marker-wrapper,
+.trial {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.date10 {
+  border: 1px solid var(--stroke-01);
+  outline: 0;
+  background-color: var(--white);
+  height: 50px;
+  flex: 1;
+  box-sizing: border-box;
+  align-items: center;
+  padding: var(--padding-3xs) 0 var(--padding-3xs) var(--padding-3xs);
+  min-width: 201px;
+}
+.data-fields5,
+.trial {
+  max-width: 100%;
+}
+.data-fields5 {
+  width: 531px;
+  margin: 0 !important;
+  position: absolute;
+  top: 102px;
+  left: 1369px;
+  align-items: flex-end;
+  gap: var(--gap-8xs);
+  font-size: var(--font-size-base);
+}
+.trial {
+  align-self: stretch;
+  height: 172px;
+  background-color: var(--white);
+  overflow: hidden;
+  flex-shrink: 0;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  padding: var(--padding-7xl) var(--padding-xl) var(--padding-xl);
+  box-sizing: border-box;
+  position: relative;
+  gap: 26px 19.3px;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--text-2);
+  font-family: var(--font-segoe-ui);
+}
+@media screen and (max-width: 450px) {
+  .data-fields,
+  .data-fields1,
+  .data-fields2,
+  .data-fields3,
+  .data-fields4,
+  .data-fields5 {
+    flex-wrap: wrap;
+  }
+  .trial {
+    height: auto;
+    min-height: 172;
+  }
+}

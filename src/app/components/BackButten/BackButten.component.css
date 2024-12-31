@@ -1,0 +1,24 @@
+.vector-icon {
+  height: 18px;
+  width: 12px;
+  position: relative;
+  object-fit: contain;
+}
+.back-butten,
+.back-icon {
+  height: 70px;
+  width: 40px;
+  display: flex;
+  flex-direction: row;
+}
+.back-icon {
+  background-color: var(--color-gainsboro-100);
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+}
+.back-butten {
+  align-items: flex-start;
+  justify-content: flex-start;
+}
